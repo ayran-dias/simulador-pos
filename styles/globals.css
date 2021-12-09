@@ -297,6 +297,8 @@ border:none;
   border-color: none;
 }
 
+
+
 .Preco-2{
   background-color: rgb(240, 235, 235);
   border: none;
@@ -307,5 +309,35 @@ border:none;
   width: 100%;
   margin: 0.3rem;
   padding: 0.6rem;
+}
+
+.Preco-2::-webkit-outer-spin-button,
+.Preco-2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Preco-2:focus {
+  outline: none;
+  -webkit-outer-spin-button: none;
+  -webkit-inner-spin-button: none;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+  appearance: none;
+  border: none;
+}
+
+
+.teste{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: royalblue;
 
 }

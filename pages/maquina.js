@@ -21,7 +21,7 @@ const Maquina = () => {
     <div className='background-color'>
       <Cabecalho/>
       <div  >
-        <Container fluid="xx1">
+        <Container >
           <Col>
 
             <Row>
@@ -30,7 +30,7 @@ const Maquina = () => {
                 alt="head"
                 width={184 * scale}
                 height={81 * scale}
-                objectPosition="top"
+
               />
             </Row>
 

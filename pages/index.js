@@ -19,10 +19,10 @@ const Maquina = () => {
   return (
     <div className="background-color">
       <Cabecalho />
-      <div>
+      <div className="teste">
         <Container>
-          <center>
             <Col>
+
               <Row>
                 <Image
                   src={head}
@@ -79,7 +79,6 @@ const Maquina = () => {
                 />
               </Row>
             </Col>
-          </center>
         </Container>
       </div>
     </div>
