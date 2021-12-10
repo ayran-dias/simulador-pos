@@ -13,17 +13,17 @@ import Cabecalho from "./simulador/ComponentSimulador/Cabecalho";
 import { Container, Col, Card, Row } from "react-bootstrap";
 import Preco from "./simulador/ComponentSimulador/Preco";
 
-const scale = 1.9;
+const scale = 1.95;
 
 const Maquina = () => {
   return (
     <div className="background-color">
       <Cabecalho />
       <div className="teste">
-        <Container>
-            <Col>
+        <Container fluid>
+            <Col md={{ span: 5, offset: 3 }} >
 
-              <Row>
+              <Row >
                 <Image
                   src={head}
                   alt="head"
